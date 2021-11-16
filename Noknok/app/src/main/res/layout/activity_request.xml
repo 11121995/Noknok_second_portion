@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Request"
+    android:elevation="25dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="@string/rcpname"
+            android:textAppearance="@style/request_titles"
+            android:layout_weight="400"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="95dp" />
+
+        <EditText
+            android:layout_width="323dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="27dp"
+            android:hint=""
+            android:inputType="textEmailAddress"
+            android:background="@drawable/ic_rectangle_346" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="@string/portion"
+            android:textAppearance="@style/request_titles"
+            android:layout_weight="400"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="40dp" />
+
+        <EditText
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="27dp"
+            android:textFontWeight="300"
+            android:hint="@string/fourppl"
+            android:inputType="textEmailAddress"
+            android:textAppearance="@style/request_edittext_title"
+            android:textColor="@color/edittext"
+            android:ems="10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="Addons"
+            android:textAppearance="@style/request_titles"
+            android:layout_weight="400"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="35dp" />
+
+        <EditText
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="27dp"
+            android:textFontWeight="300"
+            android:hint="(Optional)"
+            android:inputType="textEmailAddress"
+            android:textAppearance="@style/request_edittext_title"
+            android:textColor="@color/edittext"
+            android:ems="10"/>
+
+        <EditText
+            android:id="@+id/editTextTextCookEmailID"
+            android:layout_width="323dp"
+            android:textFontWeight="300"
+            android:lineHeight="19sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="27dp"
+            android:background="@drawable/ic_rectangle_132"
+            android:text="Recipe Details"
+            android:gravity="top|left"
+            android:textColor="@color/black1"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textAppearance="@style/request_edittext"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_height="119dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="Sample Image"
+            android:textAppearance="@style/request_titles"
+            android:layout_weight="400"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="35dp" />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_rectangle_348"
+            android:drawableRight="@drawable/icons8_image_30px_1_1"
+            android:drawablePadding="5dp"
+            android:text="Upload Image"
+            android:textAppearance="@style/request_btn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="Scheduled Time"
+            android:textAppearance="@style/request_titles"
+            android:layout_weight="400"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="32dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="27dp"
+                android:background="@drawable/ic_rectangle_130"
+                android:text="Wed, 21 Nov"
+                android:layout_gravity="center"
+                android:textAppearance="@style/request_btn" />
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="27dp"
+                android:background="@drawable/ic_rectangle_130"
+                android:text="4:32 PM"
+                android:layout_gravity="center"
+                android:textAppearance="@style/request_btn" />
+        </LinearLayout>
+
+        <DatePicker android:id="@+id/datePicker4"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="@style/request_titles"
+                android:layout_weight="400"
+                android:layout_marginLeft="27dp"
+                android:text="Delivery Address in Details" />
+
+            <Button
+                android:layout_width="26dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="140dp"
+                android:text="Edit"
+                android:background="@null"
+                android:textAppearance="@style/food_name_amount"
+                android:textFontWeight="1000" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="350dp"
+            android:textFontWeight="300"
+            android:lineHeight="76sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_rectangle_132"
+            android:textColor="@color/black1"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:gravity="top|left"
+            android:textAppearance="@style/request_edittext"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_height="119dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ic_rectangle_133"
+            android:text="Okay"
+            android:lineHeight="20dp"
+            android:textAppearance="@style/login_3"/>
+
+    </LinearLayout>
+</ScrollView>

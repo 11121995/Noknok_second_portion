@@ -1,0 +1,492 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Noknok" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/salsa_regular</item>
+    </style>
+
+    <style name="noknok">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/rating</item>
+        <item name="android:fontFamily">@font/salsa_regular</item>
+        <item name="lineHeight">59sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+
+    <style name="login">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/availability</item>
+    </style>
+
+    <style name="facebook_lo">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="or">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/or</item>
+    </style>
+
+    <style name="login_register_edittext">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/availability</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="request_edittext">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black1</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="forget_your">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/forget</item>
+    </style>
+
+    <style name="login_2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+
+    <style name="login_3">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="dont_have_a">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/availability</item>
+    </style>
+
+    <style name="sign_up_here">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/sign_up</item>
+    </style>
+
+    <style name="dishes">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="cooks">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="enter_your_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/write_location</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="view_dish">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/display_title_description</item>
+    </style>
+
+    <style name="date">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="menu">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/menu</item>
+    </style>
+
+    <style name="login_as_co">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/login_co</item>
+        <item name="android:fontFamily">@font/salsa_regular</item>
+    </style>
+
+    <style name="login_as_fo">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/rating</item>
+        <item name="android:fontFamily">@font/salsa_regular</item>
+    </style>
+
+    <style name="view_as_gue">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white_grey</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+        <item name="android:lineHeight" tools:targetApi="p">17sp</item>
+    </style>
+
+    <style name="Theme.Noknok.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="register">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/availability</item>
+    </style>
+
+    <style name="facebook_wi">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="sign_up">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="by_clicking">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/click</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="search">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/favourites_cook</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="account_show_username">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/cart_description</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_profile">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/availability</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_profile1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/display_title_description</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_no_order">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/no_order</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_past_order">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/display_title_description</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_order_item">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/availability</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="account_order_reorder">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="account_profile_read">
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:textColor">@color/display_title_description</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="account_notification_date">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/date</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="acceptance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/display_title_description</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="footer_font">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">11sp</item>
+        <item name="lineHeight">13sp</item>
+        <item name="android:layout_marginTop">34dp</item>
+        <item name="android:layout_marginLeft">41dp</item>
+    </style>
+
+    <style name="footer_font_cook">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="lineHeight">15sp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:textColor">@color/footer</item>
+    </style>
+
+    <style name="footer_pic">
+        <item name="android:layout_marginLeft">46dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="search_cook_dish">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="round_corner">
+        <item name="cornerSize">15dp</item>
+    </style>
+
+    <style name="rating">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">13sp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="price_total">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">19sp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="favourites">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/favourites_cook</item>
+    </style>
+
+    <style name="order_time">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">17sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/order_time</item>
+    </style>
+
+    <style name="cart_number">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">22sp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dish_description</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="check_out_subtotal">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">19sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="cart_name">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">19sp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="filter_attribute">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="cart_description">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/cart_des</item>
+    </style>
+
+    <style name="subtotal">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dish_description</item>
+    </style>
+
+    <style name="cook_name">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">15sp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="cook_description">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">12sp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="request_titles">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="request_btn">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="lineHeight">18sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:layout_weight">300</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="request_edittext_title">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">14sp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="dish_request">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">16sp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="content_description">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">16sp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/content_des</item>
+    </style>
+
+    <style name="food_display_title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="user_dashboard">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dashboard</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="user_dashboard_edit">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/edit</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="checklist_search">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/search</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="checklist_text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/favourites_cook</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="checklist_items">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/item</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="food_display_description">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/item_desc</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="food_name_amount">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/food_amount</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="final_description">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/final_desc</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="delivery_description">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">17sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/delivery_description</item>
+    </style>
+
+    <style name="cook_user">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dashboard</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="edit_profile">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/profile_edit</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="dropdown_menu">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="cuisine_button">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="cook_name_order_payment">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="lineHeight">13sp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/payment</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="special_request">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/cart_description</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="special_request_color">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dashboard</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Noknok.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Noknok.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:elevation="25dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="41dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/menu">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu"
+            android:textAppearance="@style/footer_font"
+            android:textFontWeight="300" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="41dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/love">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/love" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fav"
+            android:textAppearance="@style/footer_font"
+            android:textFontWeight="300" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="41dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/search">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:textAppearance="@style/footer_font"
+            android:textFontWeight="300" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="41dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cart"
+            android:textAppearance="@style/footer_font"
+            android:textFontWeight="300" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="41dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons8_user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account"
+            android:textAppearance="@style/footer_font"
+            android:textFontWeight="300" />
+    </LinearLayout>
+</LinearLayout>

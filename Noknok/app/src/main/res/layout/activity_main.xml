@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:elevation="25dp">
+
+    <TextView
+        android:id="@+id/noknok"
+        android:layout_width="192dp"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/app_name"
+        android:textAppearance="@style/noknok" />
+
+    <Button
+        android:id="@+id/login_as_co"
+        android:layout_width="189dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/ic_rectangle_48"
+        android:text="Login as Cook"
+        android:textAppearance="@style/login_as_co"/>
+
+    <Button
+        android:id="@+id/login_as_fo"
+        android:layout_width="144dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/ic_rectangle_49"
+        android:text="Login as foodie"
+        android:textAppearance="@style/login_as_fo"/>
+
+
+</LinearLayout>

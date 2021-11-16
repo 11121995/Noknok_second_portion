@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Noknok" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/salsa_regular</item>
+    </style>
+    <style name="noknok">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/noknok</item>
+        <item name="android:fontFamily">@font/salsa_regular</item>
+        <item name="lineHeight">59sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontWeight" tools:targetApi="o">400</item>
+    </style>
+    <style name="login">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/availability</item>
+    </style>
+    <style name="display">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/availability</item>
+    </style>
+    <style name="register">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/availability</item>
+    </style>
+    <style name="sign_up">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/availability</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textAlignment="center"
+            android:layout_marginTop="73dp"
+            android:layout_marginLeft="28dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:lineHeight="24sp"
+            android:text="Orders"
+            android:textAppearance="@style/account_profile1"
+            android:textFontWeight="1000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textAlignment="center"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="28dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:lineHeight="20sp"
+            android:text="No Active Orders"
+            android:textAppearance="@style/account_no_order"
+            android:textFontWeight="800"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textAlignment="center"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:lineHeight="20sp"
+            android:text="Past Orders"
+            android:textAppearance="@style/account_past_order"
+            android:textFontWeight="800"/>
+
+
+        <include
+            layout="@layout/account_order_cycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

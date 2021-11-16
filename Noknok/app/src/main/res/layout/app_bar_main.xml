@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".HomeDishDisplay"
+    android:elevation="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/dishes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_rectangle_214"
+                android:text="@string/dishes"
+                android:textAppearance="@style/dishes" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:baselineAligned="false"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/cooks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_rectangle_214"
+                android:text="@string/cooks"
+                android:textAppearance="@style/dishes" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:width="240dp"
+            android:background="@drawable/ic_facebook"
+            android:ems="20"
+            android:gravity="center"
+            android:inputType="text"
+            android:lineHeight="14sp"
+            android:text="@string/enter_your_"
+            android:textAppearance="@style/enter_your_"
+            android:textColor="@color/write_location"/>
+    </LinearLayout>
+</LinearLayout>
+
+
